@@ -1,0 +1,101 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Centaur;
+
+}
+.container{
+  position: 100;
+  text-align: center;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: auto;
+  background: rgb(102, 156, 201);
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: url("background.jpg");
+
+
+}
+
+img {
+  position: relative;
+  margin: auto;
+  min-width: 50%;
+  min-height: 50%;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.menu ul{
+
+  display: flex;
+  flex-wrap: nowrap;
+  background: rgb(214, 232, 243);
+}
+.menu ul > div{
+
+  width: 150px;
+  margin: 10px;
+  text-align: center;
+  line-height:20px;
+  font-size: 20px;
+
+}
+.app-text{
+  width:650px;
+  text-align: center;
+  font-size: 15px;
+  margin: 30px 0 30px 40px;
+  line-height:25px;
+  color: rgb(17, 16, 16);
+
+  }
+  a:link {
+  text-decoration: none;
+ color:#b3bec2;
+}
+
+a:visited {
+  text-decoration: none;
+color: #b3bec2;
+}
+/* Create three equal columns that floats next to each other */
+.column {
+  float:left;
+  width: 25%;
+  margin-right: 22px;
+  margin-left: 55px;
+  height: 270px; /* Should be removed. Only for demonstration */
+  align-items: center;
+  justify-content: center;
+}
+.column2 {
+  float:left;
+
+  width: 10%;
+
+  height: 100px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+ .logo img{
+/*width: 100px;
+margin-top: -50px;
+margin-right: 48px;*/
+   width: 200px;
+   height: auto;
+   margin-top: -50px;
+   margin-right: 48px;
+}
+
+
